@@ -4,7 +4,7 @@ import time
 import os
 
 
-API_TOKEN = "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" # Replace with your Hugging Face API token
+API_TOKEN = "Enter your Hugging Face API token" # Replace with your Hugging Face API token
 
 st.markdown("<h1 style='text-align: center;'>AI Image Generator</h1>", unsafe_allow_html=True)
 
@@ -33,4 +33,3 @@ if submit_button:
     
     if generated_image:
         st.download_button(label="Download Image", data=image_bytes, file_name="image.png", mime="image/png")
-        
