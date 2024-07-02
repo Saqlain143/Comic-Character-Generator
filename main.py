@@ -4,7 +4,7 @@ import time
 import os
 
 
-API_TOKEN = "Enter your Hugging Face API token" # Replace with your Hugging Face API token
+API_TOKEN = "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" # Replace with your Hugging Face API token
 
 st.markdown("<h1 style='text-align: center;'>AI Image Generator</h1>", unsafe_allow_html=True)
 
