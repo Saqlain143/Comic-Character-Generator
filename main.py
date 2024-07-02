@@ -6,7 +6,7 @@ import os
 
 API_TOKEN = "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" # Replace with your Hugging Face API token
 
-st.markdown("<h1 style='text-align: center;'>AI Image Generator</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>COMIC CHARACTER GENERATOR</h1>", unsafe_allow_html=True)
 
 with st.form("my_form", clear_on_submit=True):
     prompt = st.text_area("Enter your Prompt:")
