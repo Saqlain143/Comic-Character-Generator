@@ -12,6 +12,7 @@ st.set_page_config(page_title="Comic Character Generator", page_icon=":tada:", l
 
 st.sidebar.markdown("<h1 style='text-align: center;'>COMIC CHARACTER GENERATOR</h1>", unsafe_allow_html=True)
 
+
 API_TOKEN = st.secrets["api_token"] # Replace with your Hugging Face API token
 
 st.markdown("<h1 style='text-align: center;'>COMIC CHARACTER GENERATOR</h1>", unsafe_allow_html=True)

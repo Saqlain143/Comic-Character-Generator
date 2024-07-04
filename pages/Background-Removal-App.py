@@ -1,7 +1,5 @@
 import streamlit as st
-import requests
 import time
-import os
 from rembg import remove 
 from PIL import Image
 from io import BytesIO
